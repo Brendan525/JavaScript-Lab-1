@@ -19,7 +19,7 @@ while (userHealth > 0 && wins < 3) {
 
  const attack = prompt("Would you like to attack or quit?"); {
     function getDamage() {
-    return Math.floor(Math.random() * 2) +4;
+    return Math.floor(Math.random() * 5);
     }
 }   
     
