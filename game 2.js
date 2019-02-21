@@ -19,7 +19,7 @@ while (userHealth > 0 && wins < 3) {
 
  const attack = prompt("Would you like to attack or quit?"); {
     function getDamage() {
-    return Math.floor(Math.random() * 2) +5;
+    return Math.floor(Math.random() * 2) +4;
     }
 }   
     
@@ -39,7 +39,7 @@ wins++;
 grantHealth = 10;
 }
 
-if (userHealth <= 0 && win) {
+if (userHealth <= 0 && win < 3) {
 console.log(`Grant has won.`);
 }
 if (wins === 3){
